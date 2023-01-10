@@ -34,8 +34,4 @@ export class Order {
       `O cliente é: ${this.customer.getName()} ${this.customer.getIDN()}`,
     );
   }
-
-  saveOrder() {
-    console.log('Pedido salvo com sucesso.');
-  }
 }
